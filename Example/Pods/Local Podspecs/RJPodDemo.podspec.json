@@ -1,0 +1,22 @@
+{
+  "name": "RJPodDemo",
+  "version": "0.1.0",
+  "summary": "A short description of RJPodDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jainmca21/RJPodDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jainmca21": "rahuljainmca21@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jainmca21/RJPodDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RJPodDemo/Classes/**/*"
+}
