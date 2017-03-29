@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RJPodDemo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Dependency setup for RJPodDemo.'
 
   s.homepage         = 'https://github.com/jainmca21/RJPodDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = "MIT"
   s.author           = { 'Rahul Kumar Jain' => 'rahuljainmca21@gmail.com' }
-  s.source           = { :git => 'https://github.com/jainmca21/RJPodDemo.git', :tag => s.version, :submodules => true}
+  s.source           = { :git => 'https://github.com/jainmca21/RJPodDemo.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
