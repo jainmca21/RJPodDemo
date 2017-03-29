@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RJPodDemo_Example' do
+  pod 'RJPodDemo', :path => '../'
+
+  target 'RJPodDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
