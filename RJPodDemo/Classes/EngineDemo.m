@@ -25,4 +25,7 @@
     return firstValue * secondValue;
 }
 
++ (CGFloat)sqrtValue:(NSInteger)value{
+    return 0;
+}
 @end
