@@ -19,4 +19,10 @@
 + (CGFloat)subtractValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue{
     return firstValue - secondValue;
 }
+
+//Multiplicatin
++ (CGFloat)multiplyValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue{
+    return firstValue * secondValue;
+}
+
 @end
