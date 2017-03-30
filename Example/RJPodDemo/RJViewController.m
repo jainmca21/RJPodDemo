@@ -7,6 +7,7 @@
 //
 
 #import "RJViewController.h"
+#import "EngineDemo.h"
 
 @interface RJViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Sqrt of 9 is %.2f",[EngineDemo sqrtValue:9]);
+    
+    for(NSString *vid in [EngineDemo supportedVIDs]){
+        NSLog(@"Supported vid are :- %@\n",vid);
+    }
 }
 
 - (void)didReceiveMemoryWarning

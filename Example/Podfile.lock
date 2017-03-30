@@ -1,5 +1,5 @@
 PODS:
-  - RJPodDemo (0.1.0)
+  - RJPodDemo (1.0.0)
 
 DEPENDENCIES:
   - RJPodDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RJPodDemo: f7a7f34dc188527c89c2edc61a7c2f1c45578a48
+  RJPodDemo: e287eb06f298bfb09f98bd357afa8e7f6adca407
 
 PODFILE CHECKSUM: e7a3d92ad472e95296dfa3690b6db55e8171f2c2
 

@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface EngineDemo : NSObject
 + (NSInteger)sumOfValue:(NSInteger)firstValue SecondValue:(NSInteger)secondValue;
 + (CGFloat)subtractValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue;
 + (CGFloat)multiplyValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue;
 + (CGFloat)sqrtValue:(CGFloat)value;
-
++ (NSArray *)supportedVIDs;
 @end

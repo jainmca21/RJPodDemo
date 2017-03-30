@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "EngineDemo.h"
 
 FOUNDATION_EXPORT double RJPodDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char RJPodDemoVersionString[];

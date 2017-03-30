@@ -28,4 +28,9 @@
 + (CGFloat)sqrtValue:(CGFloat)value{
     return sqrt(value);
 }
+
++ (NSArray *)supportedVIDs{
+    NSString *endineID = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Engine Supported VID"];
+    return endineID;
+}
 @end
